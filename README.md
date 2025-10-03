@@ -90,18 +90,4 @@ import svgwrite
 
 
 
-# 使用說明
-
-
-
-## 專題工作書文本
-
-[Awesome README](https://github.com/matiassingers/awesome-readme)
-
-
-## 特別感謝
-
- - [yenfugod]()
-
-
 
