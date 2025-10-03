@@ -8,7 +8,7 @@
 這是一個能自動進行圖像輪廓擬合的系統。  
 使用者可以在網頁上繪製筆畫，或直接上傳圖片，系統會自動擬合並轉換成 **SVG 格式**，方便後續編輯與應用。  
 
-感謝你的使用 (>'-'<) 這份我真的做了好久，累死我了(；′⌒`)
+感謝你的使用 (>'-'<) 這份我真的做了好久，累(；′⌒`)
 
 ---
 
@@ -45,11 +45,11 @@ import svgwrite
 * 畫完後，點選 **發送到 Python**，系統會花約 **1–2 秒** 進行擬合。
 * 擬合完成後，會將 **紅色曲線** 疊加在原圖上，並以 **綠點** 標示貝茲曲線節點。
 
-![網站介面\_單筆畫模式]()
+![網站介面_單筆畫模式](https://github.com/James-JAJ/Bezier_Fitting_Tool/blob/main/img/%E5%96%AE%E7%AD%86%E7%95%AB%E6%A8%A1%E5%BC%8F_%E4%BB%8B%E9%9D%A2%E5%9C%96.png)
 
-![單筆畫模式截圖一]()
+![單筆畫模式截圖一](https://github.com/James-JAJ/Bezier_Fitting_Tool/blob/main/img/%E5%96%AE%E7%AD%86%E7%95%AB%E6%A8%A1%E5%BC%8F_%E5%9C%96%E4%B8%80.png)
 
-![單筆畫模式截圖二]()
+![單筆畫模式截圖二](https://github.com/James-JAJ/Bezier_Fitting_Tool/blob/main/img/%E5%96%AE%E7%AD%86%E7%95%AB%E6%A8%A1%E5%BC%8F_%E5%9C%96%E4%BA%8C.png)
 
 ---
 
@@ -57,17 +57,22 @@ import svgwrite
 
 * 取消勾選 **單筆畫模式** 後，即可切換至 **多筆畫模式**。
 * 此時可直接拖曳圖片進入網站。
-* 點選 **發送到 Python**，根據筆畫複雜度，系統將花費約 **3–10 秒** 完成擬合。
-
-![網站介面\_多筆畫模式]()
-
-![多筆畫模式截圖一]()
-
-![多筆畫模式截圖二]()
-
-![多筆畫模式截圖三]()
-
+* 點選 **發送到 Python**，根據筆畫複雜度，系統將花費約 **3~10 秒** 完成擬合。
 * 擬合完成後，可點選 **下載 SVG**，將結果儲存為 **SVG 檔案**。
+
+![網站介面\_多筆畫模式](https://github.com/James-JAJ/Bezier_Fitting_Tool/blob/main/img/%E5%A4%9A%E7%AD%86%E7%95%AB%E6%A8%A1%E5%BC%8F_%E4%BB%8B%E9%9D%A2%E5%9C%96.png)
+
+![多筆畫模式_筆劃圖一](https://github.com/James-JAJ/Bezier_Fitting_Tool/blob/main/img/%E5%A4%9A%E7%AD%86%E7%95%AB%E6%A8%A1%E5%BC%8F_%E7%AD%86%E7%95%AB%E5%9C%96%E4%B8%80.png)
+
+![多筆畫模式_筆劃圖二](https://github.com/James-JAJ/Bezier_Fitting_Tool/blob/main/img/%E5%96%AE%E7%AD%86%E7%95%AB%E6%A8%A1%E5%BC%8F_%E5%9C%96%E4%BA%8C.png)
+
+![多筆畫模式_圖片擬合圖一](https://github.com/James-JAJ/Bezier_Fitting_Tool/blob/main/img/%E5%A4%9A%E7%AD%86%E7%95%AB%E6%A8%A1%E5%BC%8F_%E5%9C%96%E5%83%8F%E4%B8%80.png)
+
+![多筆畫模式_圖片擬合圖一 SVG](https://github.com/James-JAJ/Bezier_Fitting_Tool/blob/main/img/%E5%A4%9A%E7%AD%86%E7%95%AB%E6%A8%A1%E5%BC%8F_%E5%9C%96%E5%83%8F%E4%B8%80SVG.png)
+
+![多筆畫模式_圖片擬合圖二](https://github.com/James-JAJ/Bezier_Fitting_Tool/blob/main/img/%E5%A4%9A%E7%AD%86%E7%95%AB%E6%A8%A1%E5%BC%8F_%E5%9C%96%E5%83%8F%E4%BA%8C.png)
+
+![多筆畫模式_圖片擬合圖二 SVG](https://github.com/James-JAJ/Bezier_Fitting_Tool/blob/main/img/%E5%A4%9A%E7%AD%86%E7%95%AB%E6%A8%A1%E5%BC%8F_%E5%9C%96%E5%83%8F%E4%BA%8CSVG.png)
 
 ---
 
