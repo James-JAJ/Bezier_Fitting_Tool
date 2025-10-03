@@ -20,7 +20,6 @@
 import numpy as np
 import cv2
 import sys
-import time
 import threading
 import base64
 

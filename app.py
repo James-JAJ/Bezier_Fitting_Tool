@@ -3,7 +3,6 @@ import sys
 import numpy as np
 import cv2
 from flask import Flask, request, jsonify, send_from_directory, Response
-import time
 import threading
 from utils import *  # 導入所有工具函數，包括 server_tools 中的函數
 import base64
@@ -89,7 +88,6 @@ def process_upload(width, height, contours, testmode):
                 # 黑底圖像（不影響實際圖像輸出）
                 final = np.zeros((height, width, 3), dtype=np.uint8)
 
-            start_time = time.time()
             custom_print("Receiving contours...")
             
             rdptotal = 0
@@ -194,8 +192,7 @@ def process_upload(width, height, contours, testmode):
                 
                 for point in custom_points:
                     final = cv2.circle(final, (int(point[0]), int(point[1])), 5, (0, 255, 0), -1)    
-                end_time = time.time()
-                custom_print(f"✅ 處理完成！共花費 {end_time - start_time:.2f} 秒")
+
                 image_base64.append(encode_image_to_base64(final))
                 
            
