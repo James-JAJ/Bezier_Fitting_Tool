@@ -74,7 +74,7 @@ import svgwrite
 
 
 *多筆畫模式_筆劃圖二*
-![多筆畫模式_筆劃圖二](https://github.com/James-JAJ/Bezier_Fitting_Tool/blob/main/img/%E5%96%AE%E7%AD%86%E7%95%AB%E6%A8%A1%E5%BC%8F_%E5%9C%96%E4%BA%8C.png)
+![多筆畫模式_筆劃圖二](https://github.com/James-JAJ/Bezier_Fitting_Tool/blob/main/img/%E5%A4%9A%E7%AD%86%E7%95%AB%E6%A8%A1%E5%BC%8F_%E7%AD%86%E7%95%AB%E5%9C%96%E4%BA%8C.png)
 
 
 *多筆畫模式_圖片擬合圖一*
